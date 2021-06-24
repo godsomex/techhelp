@@ -7,7 +7,7 @@ const Searchpage = () => {
           <div className="header">
               <form>
                   <h1>Find The Right Developer For Your Company/Project</h1>
-                
+                  
                   <div className="form-box">
                         <select className="search-field" id="search-field" name="search">
                             <option value="tech">Tech</option>
