@@ -17,7 +17,7 @@ nav input[type='text'] {
   border: none;
   margin-top: 12px;
   margin-right: 12px;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 nav ul {
