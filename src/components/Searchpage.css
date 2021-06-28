@@ -107,7 +107,7 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 100px) and (max-width:1289px){
+@media only screen and (min-width: 510px) and (max-width:1289px){
     .search-field {
         height: 2.5em;
         width: 20em;
@@ -121,5 +121,41 @@ h4 {
     .search-btn {
         height: 2.5em;
         width: 5em;
+    }
+}
+
+@media only screen and (min-width: 291px) and (max-width: 509px){
+
+    .search-field {
+        height: 2.5em;
+        width: 20em;
+        margin: .2em;
+    }
+
+    .location {
+        width: 20em;
+    }
+    
+    .search-btn {
+        height: 2.5em;
+        width: 20em;
+    }
+}
+
+@media only screen and (max-width: 290px){
+
+    .search-field {
+        height: 2.5em;
+        width: 15em;
+        margin: .2em;
+    }
+
+    .location {
+        width: 15em;
+    }
+    
+    .search-btn {
+        height: 2.5em;
+        width: 15em;
     }
 }
