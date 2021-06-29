@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import Searchpage from './components/Searchpage';
 import About from './components/About';
 import Listing from './components/Listing';
 
@@ -7,6 +8,8 @@ function App() {
     <>
     <div>
       <Navbar />
+      
+      <Searchpage />
       <About />
     </div>
 
