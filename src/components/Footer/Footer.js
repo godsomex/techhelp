@@ -2,11 +2,7 @@ import React from 'react'
 import SocialMedia from './SocialMedia'
 import Details from './Details'
 import FooterContent from './FooterContent'
-<<<<<<< HEAD
-import './Footer.css'
-=======
 import '../footer.css'
->>>>>>> main
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
