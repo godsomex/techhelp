@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function SocialMedia() {
     return (
         <div >
-            <h4> FOLLOW US </h4>
+            <h4 className="h4-title"> FOLLOW US </h4>
             <div className="icons">
                 <FontAwesomeIcon icon={["fab", "facebook"]} />
                 <FontAwesomeIcon icon={["fab", "instagram"]} />

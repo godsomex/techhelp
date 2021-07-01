@@ -11,11 +11,11 @@ function App() {
       <Navbar />
       <Searchpage />
       <About />
-      <Footer/>
     </div>
     <div>
       <Listing />
     </div>
+    <Footer/>
     </>
   );
 }
