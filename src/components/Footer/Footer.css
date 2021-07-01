@@ -8,7 +8,6 @@
 #foot-container {
     display: flex;
     margin-top: 20px;
-    background-color: none!important;
 }
 .h4-title  {
     color: #7BC8EB;
@@ -115,12 +114,13 @@ ul li a:hover   {
         padding: 2em;
         display: flex;
         justify-content: center;
-        
+        background-position: center;
+        background-size: cover;
     }
     #foot-container     {
-        margin-top: 20px;
         display: flex;
         flex-direction: column;
+        margin-top: 0!important;
     }
     .details {
         margin-left: 0;
@@ -140,7 +140,6 @@ ul li a:hover   {
         display: flex;
         color: #7BC8EB;
         margin-top: 6px;
-
     }
     .h4-title  {
         color: #7BC8EB;
