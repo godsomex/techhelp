@@ -12,13 +12,13 @@ function Navbar() {
               <a href="homepage.html">Home</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href=" ">About Us</a>
             </li>
             <li>
-              <a href="#">Profile</a>
+              <a href=" ">Profile</a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href=" ">Contact Us</a>
             </li>
             <li>
               <a href="signin.html">Sign In</a>
