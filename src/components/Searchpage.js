@@ -1,5 +1,9 @@
 import React from 'react';
 import './Searchpage.css';
+import Searchresult from './components/Searchresult.js';
+import { BrowserRouter as Router, Route, Link, NavLink, Switch} from 'react-router-dom';
+
+
 
 const Searchpage = () => {
     return (
@@ -18,8 +22,11 @@ const Searchpage = () => {
                         </select>
 
                         <input className="search-field location" name="location" type="text" placeholder="Location"></input>
-
-                        <button className="search-btn" type="button">Search</button>
+                    
+                        <Link exact to='Searchresult' className="search-btn" type="button">
+                            Search
+                        </Link>
+                        
                   </div>
                   <h4>...raising the next generation of great developers</h4>
                  
