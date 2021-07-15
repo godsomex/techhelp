@@ -2,11 +2,20 @@ import Navbar from './components/Navbar';
 import Searchpage from './components/Searchpage';
 import About from './components/About';
 import Listing from './components/Listing';
+import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <div>
+    <Router> 
+      <div>
+        <Switch>
+          <Route path="/about" component={About} />
+          <Route path="/searchpage" component={Searchpage} />
+        </Switch>
+      </div>
+    </Router>
+    {/* <div>
       <Navbar />
       
       <Searchpage />
@@ -15,7 +24,7 @@ function App() {
 
     <div>
       <Listing />
-    </div>
+    </div> */}
     </>
   );
 }

@@ -1,7 +1,10 @@
 import React from 'react';
+import ReactDOM from "react-dom";
+// import { BrowserRouter, Route, Switch } from "react-router-dom";
+// import { Link } from "react-router-dom";
+
 import './Searchpage.css';
-import Searchresult from './components/Searchresult.js';
-import { BrowserRouter as Router, Route, Link, NavLink, Switch} from 'react-router-dom';
+import './Searchresult.js';
 
 
 
@@ -23,10 +26,12 @@ const Searchpage = () => {
 
                         <input className="search-field location" name="location" type="text" placeholder="Location"></input>
                     
-                        <Link exact to='Searchresult' className="search-btn" type="button">
-                            Search
-                        </Link>
                         
+                        {/* <Button onClick={event =>  window.location.href='/Searchresult.js'} className="search-btn" type="button">Search</Button> */}
+
+                        {/* <Link exact to='Searchresult' className="search-btn" type="button">
+                            Search
+                        </Link> */}
                   </div>
                   <h4>...raising the next generation of great developers</h4>
                  
