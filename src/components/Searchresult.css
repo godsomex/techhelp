@@ -166,3 +166,30 @@ h1{
       font-size:2em;
   }
 }
+
+@media only screen and (max-width: 360px){
+    .card{
+        width: 15em;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .right-container{
+        width:97%;
+    }
+
+    .post{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .post-image {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+}
