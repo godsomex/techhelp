@@ -9,7 +9,7 @@ function Navbar() {
 
           <ul className="navbar">
             <li>
-              <a href="homepage.html">Home</a>
+              <a href="homepage.js">Home</a>
             </li>
             <li>
               <a href="#">About Us</a>

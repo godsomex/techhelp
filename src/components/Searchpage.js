@@ -1,14 +1,16 @@
 import React from 'react';
-import ReactDOM from "react-dom";
-// import { BrowserRouter, Route, Switch } from "react-router-dom";
-// import { Link } from "react-router-dom";
+
 
 import './Searchpage.css';
 import './Searchresult.js';
 
 
 
-const Searchpage = () => {
+const Searchpage = (props) => {
+    console.log(props)
+    const changeRoute  = () => {
+        props.history.push("/Searchresult")
+    }
     return (
         <div>
           <div className="header">
@@ -27,11 +29,9 @@ const Searchpage = () => {
                         <input className="search-field location" name="location" type="text" placeholder="Location"></input>
                     
                         
-                        {/* <Button onClick={event =>  window.location.href='/Searchresult.js'} className="search-btn" type="button">Search</Button> */}
+                        <button onClick={changeRoute} className="search-btn" type="button">Search</button>
 
-                        {/* <Link exact to='Searchresult' className="search-btn" type="button">
-                            Search
-                        </Link> */}
+                      
                   </div>
                   <h4>...raising the next generation of great developers</h4>
                  
