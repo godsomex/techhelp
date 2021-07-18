@@ -7,12 +7,13 @@
 
 .head-tags{
     position:fixed;
+    width: 100%;
 }
 
 ul{
     display: flex;
     justify-content: space-between;
-    width: 23rem;
+    overflow: hidden;
     list-style-type: none;
     background:rgb(213, 215, 223);
     padding: .7em;
@@ -138,4 +139,30 @@ h1{
     text-align:left;
     padding-bottom: 0;
 }
+/* style for web */
+@media only screen and (min-width: 550px){
+    .container{
+        flex-direction: column;
+    } 
 
+    .head-tags{
+        width:100%;
+    }
+
+    .card{
+        width: 35rem;
+    }
+
+  ul{
+      justify-content:center;
+      align-items:center;
+  }
+
+  ul li{
+      margin-left: 1.5em;
+  }
+
+  h1{
+      font-size:2em;
+  }
+}
