@@ -1,0 +1,203 @@
+.footer-container  {
+    background-image: url("https://cdn.hipwallpaper.com/i/28/85/GvAcn9.jpg");
+    color: #cbcbcb;
+    font-family: Muli, sans-serif;
+    height: 25em;
+    padding: 2em 5em 2em 5em;
+}
+#foot-container {
+    display: flex;
+    margin-top: 20px;
+}
+.h4-title  {
+    color: #7BC8EB;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+svg {
+    width: 22px!important;
+    height: 22px!important;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.content ul {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 0;
+}
+ul li {
+    list-style-type: none;
+    display: flex;
+    color: #7BC8EB;
+    margin-top: 15px;
+}
+ul li a {
+    text-decoration:none;
+    color: #cbcbcb;
+}
+ul li:hover {
+    color: #7BC8EB;
+}
+ul li a:hover   {
+    color: #7BC8EB;
+}
+.content    {
+    border-top: 1px solid #7BC8EB;
+    margin-top: 30px;
+}
+.content a {
+    text-decoration: none;
+    color: #7BC8EB;
+  
+}
+.content a:hover    {
+    color: aliceblue;
+}
+.details {
+    display: flex;
+    margin-left: 32em;
+}
+.details ul {
+    padding: 0;
+}
+.details div    {
+    margin-left: 4em;
+    width: 150px;
+}
+.newsletter p{
+    width: 20rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.register-for-newsletter {
+    margin-left: 0!important;
+    margin-top: 20px;
+}
+#subscribe  {
+    width: 19.6em;
+    height: 40px;
+    border: none;
+    padding: 5px 10px 5px 53px;
+}
+#footer-email-btn   {
+    width: 16.5em;
+    height: 50px;
+    background-image: linear-gradient(75deg, #8BB7E6, #5D7CC5);
+    color: #ffff;
+    border-radius: 7px;
+    border: none;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px 2px rgba(88  103 221 / 19% );
+}
+#footer-email-btn:hover {
+    color: #d2d7e2;
+}
+.register-for-newsletter svg {
+    position: absolute;
+    top: 230px;
+    left: 88em;
+}
+.icons  {
+    margin-top: 15px;
+}
+/* Mobile view*/
+@media screen and (max-width:768px) {
+    .footer-container  {
+        background-image: url("https://cdn.hipwallpaper.com/i/28/85/GvAcn9.jpg");
+        color: #cbcbcb;
+        font-family: Muli, sans-serif;
+        height: 60em;
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    #foot-container     {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0!important;
+    }
+    .details {
+        margin-left: 0;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .details div {
+        margin-left: 0;
+    }
+    .details ul {
+        margin-top: 10px;
+    }
+    ul li {
+        list-style-type: none;
+        display: flex;
+        color: #7BC8EB;
+        margin-top: 6px;
+    }
+    .h4-title  {
+        color: #7BC8EB;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .h4-margin-title{
+        margin-top: 23px;
+        margin-bottom: 13px;
+    }
+    .icons  {
+        margin-top: 10px;
+        text-align:center;
+    }
+    svg {
+        width: 22px!important;
+        height: 22px!important;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    ul li a {
+        text-decoration:none;
+        color: #cbcbcb;
+    }
+    ul li a:hover   {
+        color: #7BC8EB;
+    }
+    .register-for-newsletter {
+        margin-left: 0!important;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .newsletter {
+        width: 230px!important;   
+    }
+    .newsletter p{
+        width: 15rem;
+        line-height: 1.5;
+        margin-top: 0!important;
+    }
+    #subscribe  {
+        margin-top: 15px;
+        width: 17em;
+        height: 40px;
+        border: none;
+        padding: 5px 10px 5px 53px;
+    }
+    #footer-email-btn   {
+        width: 14.3em;
+        height: 50px;
+        background-image: linear-gradient(75deg, #8BB7E6, #5D7CC5);
+        color: #ffff;
+        border-radius: 7px;
+        border: none;
+        margin-top: 15px;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0 5px 10px 2px rgba(88  103 221 / 19% );
+    }
+}
