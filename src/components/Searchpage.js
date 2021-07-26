@@ -1,7 +1,16 @@
 import React from 'react';
-import './Searchpage.css';
 
-const Searchpage = () => {
+
+import './Searchpage.css';
+import './Searchresult.js';
+
+
+
+const Searchpage = (props) => {
+    console.log(props)
+    const changeRoute  = () => {
+        props.history.push("/Searchresult")
+    }
     return (
         <div>
           <div className="header">
@@ -18,8 +27,11 @@ const Searchpage = () => {
                         </select>
 
                         <input className="search-field location" name="location" type="text" placeholder="Location"></input>
+                    
+                        
+                        <button onClick={changeRoute} className="search-btn" type="button">Search</button>
 
-                        <button className="search-btn" type="button">Search</button>
+                      
                   </div>
                   <h4>...raising the next generation of great developers</h4>
                  

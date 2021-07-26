@@ -1,0 +1,195 @@
+/*style for mobile view*/
+.container{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+.head-tags{
+    position:fixed;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    list-style-type: none;
+    background:rgb(213, 215, 223);
+    padding: .7em;
+    border-radius:.5em;
+    text-align: center;
+    
+}
+
+ul li{
+   
+    border: .1em solid grey;
+    border-radius: 1em;
+    padding:.5em;
+    align-items: center;
+}
+
+.top-card{
+    padding-top:3rem;
+}
+.card{
+   
+     width: 23em;
+     background: rgb(158, 161, 172);
+     border-radius: 7px;
+     box-shadow:0px 1px 10px 1px black; 
+}
+
+.profile{
+     display: flex;
+     border-radius: .6em;
+     margin-bottom: .5em;
+     background: rgb(213, 215, 223);
+     padding:.3rem .3rem .3rem 0;
+}
+
+.image-container{
+    width: 5rem;   
+}
+
+
+.left-container img{
+  background: white;
+  width: 4.5em;
+  height: 4.5em;
+  border-radius:50%;
+  padding: 2px;
+} 
+
+.left-container{
+    width:25%;
+}
+
+.right-container{
+    width:75%;
+    background: white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: .4em;
+}
+
+.right-container h2,h3,h5,p{
+    margin: 0;
+    padding: .5em 0 0 .5em;
+
+}
+
+.right-container h5{
+     color:grey;
+     font-size: 1em;
+    }
+
+.right-container p{
+    font-size: 10px;
+    padding-left: .7em;
+}
+
+h2,h1{
+    display:flex;
+    justify-content:left;
+    align-items: left;   
+    padding: .5em;
+    color:rgb(43, 42, 42);
+}
+
+.see-more{
+    font-style: italic;
+    font-size: .9em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+    padding:.7em;
+}
+
+
+.post {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: white; 
+
+}
+ .post-image {
+  flex: 1;
+  text-align:left;
+  background: rgb(240, 236, 236);
+  width: 4.5em;
+  height: 9.5em;
+  border-radius:5%;
+  padding: 2px;
+  margin:.5em 0 .5em .5em;
+}
+
+.post-preview{
+  flex: 3;
+}
+
+h1{
+    color:black;
+    margin:0;
+    text-align:left;
+    padding-bottom: 0;
+}
+/* style for web */
+@media only screen and (min-width: 550px){
+    .container{
+        flex-direction: column;
+    } 
+
+    .head-tags{
+        width:100%;
+    }
+
+    .card{
+        width: 35rem;
+    }
+
+  ul{
+      justify-content:center;
+      align-items:center;
+  }
+
+  ul li{
+      margin-left: 1.5em;
+  }
+
+  h1{
+      font-size:2em;
+  }
+}
+
+@media only screen and (max-width: 360px){
+    .card{
+        width: 15em;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .right-container{
+        width:97%;
+    }
+
+    .post{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .post-image {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+}
